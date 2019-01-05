@@ -1,3 +1,5 @@
+import { combineReducers} from "redux";
+
 const songsReducer = () => {
     return [
         { title: 'Smells Like Teen Spirit', duration: '4:05' },
